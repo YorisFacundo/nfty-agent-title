@@ -1,0 +1,3952 @@
+{
+  "id": {
+    "S": "100564285807814"
+  },
+  "accountExecutiveId": {
+    "S": "haru desx"
+  },
+  "apDate": {
+    "S": "2025-11-27T23:25:03.166Z"
+  },
+  "assignedCX": {
+    "M": {
+      "id": {
+        "S": "88028373-c128-43ac-afd2-a930a1fc0267"
+      },
+      "CXHistory": {
+        "L": [
+          {
+            "M": {
+              "adminUser": {
+                "S": "Initial offer accepted"
+              },
+              "changedAt": {
+                "S": "2025-11-27T23:25:04.206Z"
+              },
+              "newAssignedCX": {
+                "S": "yani-post@yopmail.com"
+              },
+              "oldAssignedCX": {
+                "S": ""
+              }
+            }
+          }
+        ]
+      },
+      "name": {
+        "S": "yani CXM"
+      }
+    }
+  },
+  "borrowerEmail": {
+    "S": "cypress_d_f09gpm0_bouldenerie_coborrower4us2jq7orokpfw@yopmail.com"
+  },
+  "borrowerEmploymentType": {
+    "S": "Full Time Employed/ W2"
+  },
+  "borrowerFirstName": {
+    "S": "Boulden"
+  },
+  "borrowerFlags": {
+    "M": {
+      "boConsentedHardpull": {
+        "BOOL": true
+      },
+      "cltvTooHighButValidAvmOrAppraisal": {
+        "BOOL": false
+      },
+      "completedByBorrower": {
+        "BOOL": false
+      },
+      "inATrust": {
+        "BOOL": false
+      },
+      "initialOfferAccepted": {
+        "BOOL": true
+      },
+      "initialOfferChanged": {
+        "BOOL": true
+      },
+      "initialOfferUpdated": {
+        "BOOL": true
+      },
+      "isMTA1380Error": {
+        "BOOL": false
+      },
+      "isRentalIncome": {
+        "BOOL": false
+      },
+      "manualAddress": {
+        "BOOL": false
+      },
+      "needsReview": {
+        "BOOL": true
+      },
+      "notifiedScheduledClosing": {
+        "BOOL": false
+      },
+      "offeredAddingNPEAsCoborrower": {
+        "BOOL": false
+      },
+      "signUpCheckboxes": {
+        "M": {
+          "communicationConsent": {
+            "BOOL": true
+          },
+          "privacyPolicyConsent": {
+            "BOOL": true
+          },
+          "receiveSMSConsent": {
+            "BOOL": true
+          },
+          "signUpDate": {
+            "S": "2025-11-27T23:24:25.101Z"
+          }
+        }
+      },
+      "tradelinesEdited": {
+        "BOOL": true
+      },
+      "userHasLoanInOtherPrivateLabel": {
+        "BOOL": false
+      },
+      "valuationReviewPending": {
+        "BOOL": false
+      }
+    }
+  },
+  "borrowerFullName": {
+    "S": "Boulden Erie"
+  },
+  "borrowerId": {
+    "S": "ba4a684d-994e-4b7f-8271-82133c715cdd"
+  },
+  "borrowerLastName": {
+    "S": "Erie"
+  },
+  "borrowerMissingDocs": {
+    "M": {}
+  },
+  "borrowerStatusCode": {
+    "S": "B1BRD1"
+  },
+  "borrowerSteps": {
+    "M": {
+      "brokerDisclosuresVerification": {
+        "M": {
+          "docLinkExpireDate": {
+            "S": "2025-12-11T23:24:04.000Z"
+          },
+          "firstSentAt": {
+            "S": "2025-11-27T23:24:04.692Z"
+          },
+          "link": {
+            "S": "https://stage.stg.solex.com/welcome/b1d59a5c-a624-402b-83b9-16bcef07257a"
+          },
+          "status": {
+            "S": "analyzing"
+          },
+          "updatedAt": {
+            "S": "2025-11-27T23:24:04.692Z"
+          }
+        }
+      },
+      "createdAt": {
+        "S": "2025-11-27T23:24:25.101Z"
+      },
+      "creditVerification": {
+        "M": {
+          "ALJ5820": {
+            "N": "920"
+          },
+          "ALL5820": {
+            "NULL": true
+          },
+          "ALL5820FromAPI": {
+            "N": "1092"
+          },
+          "alternateNames": {
+            "L": [
+              {
+                "M": {
+                  "firstName": {
+                    "S": "RONALD"
+                  },
+                  "middleName": {
+                    "S": "W"
+                  },
+                  "surname": {
+                    "S": "FRAME"
+                  },
+                  "yearOfBirth": {
+                    "S": "1962"
+                  }
+                }
+              }
+            ]
+          },
+          "creditScore": {
+            "N": "836"
+          },
+          "creditScoreFromAPI": {
+            "N": "836"
+          },
+          "firstLienDiscount": {
+            "BOOL": false
+          },
+          "lienPosition": {
+            "N": "2"
+          },
+          "lienPositionFromAPI": {
+            "N": "2"
+          },
+          "loanBalance": {
+            "N": "56326"
+          },
+          "loanBalanceFromAPI": {
+            "N": "56326"
+          },
+          "message": {
+            "S": "Completed! 836 FICO Score!"
+          },
+          "monthlyDebtLoad": {
+            "NULL": true
+          },
+          "monthlyDebtLoadFromAPI": {
+            "N": "1092"
+          },
+          "monthlyLoanPayment": {
+            "N": "920"
+          },
+          "MTA5830": {
+            "N": "920"
+          },
+          "processingStatus": {
+            "BOOL": false
+          },
+          "reasonCode": {
+            "S": "A001"
+          },
+          "riskFactors": {
+            "L": [
+              {
+                "S": "Proportion of loan balances to loan amounts is too high"
+              },
+              {
+                "S": "Length of time accounts have been established"
+              },
+              {
+                "S": "Too few accounts currently paid as agreed"
+              }
+            ]
+          },
+          "status": {
+            "S": "success"
+          },
+          "stepStatusHistory": {
+            "L": [
+              {
+                "M": {
+                  "APIName": {
+                    "S": "Experian"
+                  },
+                  "date": {
+                    "S": "2025-11-27T23:23:37.243Z"
+                  },
+                  "lambdaName": {
+                    "S": "Validate Credit"
+                  },
+                  "status": {
+                    "S": "success"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "date": {
+                    "S": "2025-11-27T23:23:34.564Z"
+                  },
+                  "lambdaName": {
+                    "S": "Validate Identity"
+                  },
+                  "status": {
+                    "S": "analyzing"
+                  },
+                  "system": {
+                    "BOOL": true
+                  }
+                }
+              }
+            ]
+          },
+          "updatedAt": {
+            "S": "2025-11-27T23:23:37.242Z"
+          }
+        }
+      },
+      "demographicsVerification": {
+        "M": {
+          "citizenship": {
+            "S": "Non permanent resident alien"
+          },
+          "ethnicity": {
+            "M": {
+              "cuban": {
+                "BOOL": false
+              },
+              "customEthnicity": {
+                "S": ""
+              },
+              "hispanicOrLatino": {
+                "BOOL": false
+              },
+              "mexican": {
+                "BOOL": false
+              },
+              "notHispanicOrLatino": {
+                "BOOL": false
+              },
+              "otherHispanicOrLatino": {
+                "BOOL": false
+              },
+              "prefNoSay": {
+                "BOOL": true
+              },
+              "puertoRican": {
+                "BOOL": false
+              }
+            }
+          },
+          "race": {
+            "M": {
+              "americanIndianOrAlaskaNative": {
+                "BOOL": false
+              },
+              "asian": {
+                "BOOL": false
+              },
+              "asianIndian": {
+                "BOOL": false
+              },
+              "blackOrAfricanAmerican": {
+                "BOOL": false
+              },
+              "chinese": {
+                "BOOL": false
+              },
+              "customAmericanIndianOrAlaskan": {
+                "S": ""
+              },
+              "customOtherAsian": {
+                "S": ""
+              },
+              "customOtherPacificIslander": {
+                "S": ""
+              },
+              "filipino": {
+                "BOOL": false
+              },
+              "guamanianOrChamorro": {
+                "BOOL": false
+              },
+              "japanese": {
+                "BOOL": false
+              },
+              "korean": {
+                "BOOL": false
+              },
+              "nativeHawaiian": {
+                "BOOL": false
+              },
+              "nativeHawaiianOrOtherPacificIslander": {
+                "BOOL": false
+              },
+              "otherAsian": {
+                "BOOL": false
+              },
+              "otherPacificIslander": {
+                "BOOL": false
+              },
+              "prefNoSay": {
+                "BOOL": true
+              },
+              "samoan": {
+                "BOOL": false
+              },
+              "vietnamese": {
+                "BOOL": false
+              },
+              "white": {
+                "BOOL": false
+              }
+            }
+          },
+          "sex": {
+            "M": {
+              "female": {
+                "BOOL": false
+              },
+              "male": {
+                "BOOL": false
+              },
+              "prefNoSay": {
+                "BOOL": true
+              }
+            }
+          },
+          "status": {
+            "S": "success"
+          }
+        }
+      },
+      "disclosuresVerification": {
+        "M": {
+          "status": {
+            "S": "pending"
+          }
+        }
+      },
+      "finalDisclosuresVerification": {
+        "M": {
+          "status": {
+            "S": "pending"
+          }
+        }
+      },
+      "fundingVerification": {
+        "M": {
+          "status": {
+            "S": "pending"
+          }
+        }
+      },
+      "hardpullVerification": {
+        "M": {
+          "creditProfile": {
+            "M": {
+              "endTotals": {
+                "L": [
+                  {
+                    "M": {
+                      "totalLength": {
+                        "S": "00102"
+                      },
+                      "totalSegments": {
+                        "S": "003"
+                      }
+                    }
+                  }
+                ]
+              },
+              "headerRecord": {
+                "L": [
+                  {
+                    "M": {
+                      "mKeywordLength": {
+                        "S": "00"
+                      },
+                      "preamble": {
+                        "S": "TTX8"
+                      },
+                      "reportDate": {
+                        "S": "111124"
+                      },
+                      "reportTime": {
+                        "S": "155554"
+                      },
+                      "versionNo": {
+                        "S": "07"
+                      },
+                      "y2kReportedDate": {
+                        "S": "11112024"
+                      }
+                    }
+                  }
+                ]
+              },
+              "informationalMessage": {
+                "L": [
+                  {
+                    "M": {
+                      "messageNumber": {
+                        "S": "07"
+                      },
+                      "messageNumberDetailed": {
+                        "S": "0007"
+                      },
+                      "messageText": {
+                        "S": "*****  NO RECORD FOUND  *****"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "FICO2": {
+            "N": "-1"
+          },
+          "hardCreditScore": {
+            "N": "-1"
+          },
+          "hardpullMissingMessageAdminAndLo": {
+            "S": "Borrower's Experian credit profile could not been retrieved. They have been instructed to resolve with Experian. *****  NO RECORD FOUND  *****"
+          },
+          "hardpullMissingMessageBorrower": {
+            "S": "The Experian credit profile was not found. Please contact Experian to find out why and resolve (888 397-3942)."
+          },
+          "profileSummary": {
+            "M": {}
+          },
+          "updatedAt": {
+            "S": "2025-11-27T23:25:05.324Z"
+          }
+        }
+      },
+      "homeValuationVerification": {
+        "M": {
+          "confidenceScore": {
+            "N": "86"
+          },
+          "confidenceScore1": {
+            "N": "86"
+          },
+          "confidenceScore2": {
+            "N": "60"
+          },
+          "estimatedCostData": {
+            "N": "521602"
+          },
+          "estimatedCostData1": {
+            "N": "521602"
+          },
+          "estimatedCostData2": {
+            "N": "482100"
+          },
+          "fsd": {
+            "N": "0.14"
+          },
+          "fsd1": {
+            "N": "0.14"
+          },
+          "fsd2": {
+            "N": "0.43"
+          },
+          "message": {
+            "S": "$521,602"
+          },
+          "processingStatus": {
+            "BOOL": true
+          },
+          "status": {
+            "S": "success"
+          },
+          "stepStatusHistory": {
+            "L": [
+              {
+                "M": {
+                  "date": {
+                    "S": "2025-11-27T23:23:38.861Z"
+                  },
+                  "email": {
+                    "S": "cypress_d_f09gpm0_bouldenerie_coborrower4us2jq7orokpfw@yopmail.com"
+                  },
+                  "lambdaName": {
+                    "S": "Validate Property - Success Update"
+                  },
+                  "status": {
+                    "S": "success"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "date": {
+                    "S": "2025-11-27T23:23:38.599Z"
+                  },
+                  "lambdaName": {
+                    "S": "Set Home Valuation to Analyzing"
+                  },
+                  "status": {
+                    "S": "analyzing"
+                  },
+                  "system": {
+                    "BOOL": true
+                  }
+                }
+              }
+            ]
+          },
+          "usedValuesFrom": {
+            "S": "Clear Capital"
+          },
+          "valuationDate": {
+            "S": "2025-11-27T23:23:38.860Z"
+          }
+        }
+      },
+      "idVerification": {
+        "M": {
+          "data": {
+            "M": {}
+          },
+          "dateOfBirth": {
+            "S": "1962/11/11"
+          },
+          "message": {
+            "S": "Completed! Looks good."
+          },
+          "reportIdPersona": {
+            "S": "rep_FwPc5dnTq55FeHJFEDHeQhEpxssa"
+          },
+          "socialSecurityNumber": {
+            "S": "666390434"
+          },
+          "status": {
+            "S": "success"
+          },
+          "stepStatusHistory": {
+            "L": [
+              {
+                "M": {
+                  "APIName": {
+                    "S": "Persona"
+                  },
+                  "date": {
+                    "S": "2025-11-27T23:23:34.556Z"
+                  },
+                  "email": {
+                    "S": "cypress_d_f09gpm0_bouldenerie_coborrower4us2jq7orokpfw@yopmail.com"
+                  },
+                  "lambdaName": {
+                    "S": "Validate Identity"
+                  },
+                  "status": {
+                    "S": "success"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "incomeVerification": {
+        "M": {
+          "annualIncome": {
+            "N": "63875"
+          },
+          "approvedAt": {
+            "S": "2025-11-27T23:23:41.584Z"
+          },
+          "employerName": {
+            "S": "Test Demo"
+          },
+          "employmentStartDate": {
+            "S": "06-10-2010"
+          },
+          "fastPass": {
+            "BOOL": true
+          },
+          "hardpullMissingMessage": {
+            "S": "DTI is approved subject to hard credit validation."
+          },
+          "incomeSelection": {
+            "S": "W2 (TWN)"
+          },
+          "incomeSources": {
+            "M": {
+              "otherIncome": {
+                "N": "0"
+              },
+              "rentalIncome": {
+                "N": "0"
+              },
+              "salaryIncome": {
+                "N": "125000"
+              },
+              "selfEmploymentIncome": {
+                "N": "0"
+              },
+              "socialIncome": {
+                "N": "0"
+              }
+            }
+          },
+          "message": {
+            "S": "Analyzing payroll data."
+          },
+          "monthsOfIncome": {
+            "N": "185"
+          },
+          "needsReview": {
+            "BOOL": false
+          },
+          "position": {
+            "S": "DEMO EMPLOYEE"
+          },
+          "status": {
+            "S": "success"
+          },
+          "theWorkNumber": {
+            "M": {
+              "employmentDataActive": {
+                "L": [
+                  {
+                    "M": {
+                      "employee": {
+                        "M": {
+                          "annualCompensation": {
+                            "L": [
+                              {
+                                "M": {
+                                  "TSVTOTAL": {
+                                    "M": {
+                                      "_text": {
+                                        "S": "55650.0"
+                                      }
+                                    }
+                                  },
+                                  "TSVYEAR": {
+                                    "M": {
+                                      "_text": {
+                                        "S": "2025"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "M": {
+                                  "TSVTOTAL": {
+                                    "M": {
+                                      "_text": {
+                                        "S": "59685.0"
+                                      }
+                                    }
+                                  },
+                                  "TSVYEAR": {
+                                    "M": {
+                                      "_text": {
+                                        "S": "2024"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "M": {
+                                  "TSVTOTAL": {
+                                    "M": {
+                                      "_text": {
+                                        "S": "56680.5"
+                                      }
+                                    }
+                                  },
+                                  "TSVYEAR": {
+                                    "M": {
+                                      "_text": {
+                                        "S": "2023"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          "baseCompensation": {
+                            "M": {
+                              "hoursWorked": {
+                                "S": "40"
+                              },
+                              "payFrequency": {
+                                "M": {
+                                  "code": {
+                                    "S": "9"
+                                  },
+                                  "message": {
+                                    "S": "Hourly"
+                                  }
+                                }
+                              },
+                              "payPeriodFrequency": {
+                                "M": {
+                                  "code": {
+                                    "S": "7"
+                                  },
+                                  "message": {
+                                    "S": "Weekly"
+                                  }
+                                }
+                              },
+                              "rateOfPay": {
+                                "S": "30.0"
+                              }
+                            }
+                          },
+                          "firstName": {
+                            "S": "Test"
+                          },
+                          "lastName": {
+                            "S": "Employee"
+                          },
+                          "position": {
+                            "S": "DEMO EMPLOYEE"
+                          },
+                          "projectedIncome": {
+                            "N": "63875"
+                          },
+                          "ssn": {
+                            "S": "999004210"
+                          },
+                          "startDate": {
+                            "S": "06-10-2010"
+                          },
+                          "status": {
+                            "M": {
+                              "code": {
+                                "S": "1"
+                              },
+                              "message": {
+                                "S": "Active"
+                              }
+                            }
+                          },
+                          "totalLengthOfService": {
+                            "N": "185"
+                          }
+                        }
+                      },
+                      "employer": {
+                        "M": {
+                          "code": {
+                            "S": "90005"
+                          },
+                          "name": {
+                            "S": "Test Demo"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "key": {
+                "S": "100564285807814/temp_borrower_100564285807814/admin/100564285807814_TWN Income Report B1.pdf"
+              },
+              "multipleEmploymentsDetected": {
+                "BOOL": false
+              },
+              "projectedAnnualIncome": {
+                "N": "63875"
+              },
+              "responseData": {
+                "M": {
+                  "dateTimeServer": {
+                    "S": "20251127232339"
+                  },
+                  "severity": {
+                    "S": "INFO"
+                  },
+                  "status": {
+                    "N": "0"
+                  }
+                }
+              },
+              "selectorTransaction": {
+                "M": {
+                  "loanId": {
+                    "S": "100564285807814"
+                  },
+                  "statusCode": {
+                    "N": "0"
+                  },
+                  "statusSeverity": {
+                    "S": "INFO"
+                  },
+                  "transactionId": {
+                    "S": "999093542733"
+                  }
+                }
+              }
+            }
+          },
+          "twnWasRun": {
+            "BOOL": true
+          }
+        }
+      },
+      "insuranceVerification": {
+        "M": {
+          "messageToAdmin": {
+            "S": "2nd lien - not needed"
+          },
+          "status": {
+            "S": "success"
+          }
+        }
+      },
+      "recordingVerification": {
+        "M": {
+          "recordingInfo": {
+            "L": [
+              {
+                "M": {
+                  "recordingId": {
+                    "S": "7B941A3E-8C2E-BFA1-E7F6-2520D1E3D8CB"
+                  }
+                }
+              }
+            ]
+          },
+          "status": {
+            "S": "pending"
+          }
+        }
+      },
+      "scheduleClosingVerification": {
+        "M": {
+          "status": {
+            "S": "analyzing"
+          }
+        }
+      },
+      "titleVerification": {
+        "M": {
+          "additionalPropertyInfo": {
+            "L": []
+          },
+          "borrowerName": {
+            "S": "Damien Blossom"
+          },
+          "closingDocsDrawnAs": {
+            "S": "Ronald Frame as Community Property with right of survivorship"
+          },
+          "countyFees": {
+            "N": "0"
+          },
+          "deedBookValue": {
+            "S": ""
+          },
+          "deedDatedDate": {
+            "S": "2021-09-17T00:00:00+00:00"
+          },
+          "deedInstrumentValue": {
+            "S": "2021004001"
+          },
+          "deedPageValue": {
+            "S": ""
+          },
+          "deedRecordedDate": {
+            "S": "2021-09-23T00:00:00+00:00"
+          },
+          "documentName": {
+            "S": "039430ed8bcc696e512f38c724e0765a.pdf"
+          },
+          "documentPdfId": {
+            "S": "qyg8rqrJxmIY0yXkOokWHPDk2yk"
+          },
+          "eRecordingFees": {
+            "N": "5"
+          },
+          "instrumentValue": {
+            "S": "2021004002"
+          },
+          "intangibleTax": {
+            "N": "0"
+          },
+          "isJudgementToReport": {
+            "BOOL": false
+          },
+          "legalDescComments": {
+            "S": "SITUATED IN THE COUNTY OF HENRY BOROUGH OF HENRY AND STATE OF OHIO.SITUATED IN THE TOWNSHIP OF WASHINGTON. COUNTY OF HENRY AND THE STATE OF OHIO:A PARCEL OF LAND IN THE SOUTHWEST QUARTER (1/4) OF SECTION TWENTY-SIX (26), TOWN SIX (6) NORTH, RANGE EIGHT (8) EAST, AND WHICH IS MORE PARTICULARLY DESCRIBED AS FOLLOWS:COMMENCING AT A RAILROAD SPIKE AT THE NORTHWEST CORNER OF THE SOUTHWEST QUARTER (1/4) OF SAID SECTION TWENTY-SIX (26): THENCE SOUTH 89° 00' EAST (ASSUMED BEARING FOR THE PURPOSES OF THIS DESCRIPTION) ON THE NORTH LINE OF THE SOUTHWEST QUARTER (1/4) OF SAID SECTION, ONE THOUSAND FOUR HUNDRED EIGHTY-FIVE AND ZERO HUNDREDTHS (1485.00) FEET TO A PK NAIL AND THE POINT OF BEGINNING; THENCE SOUTH 89° 00' EAST ON THE SAID NORTH LINE OF THE SOUTHWEST QUARTER (1/4) OF SECTION TWENTY- IX (26) TWO HUNDRED THIRTY-FOUR AND THIRTY HUNDREDTHS (234.30) FEET TO A RAILROAD SPIKE; THENCE SOUTH 1° 00° WEST, TWO HUNDRED SIXTY-FOUR AND ZERO HUNDREDTHS (264.00) FEET TO AN IRON PIPE; THENCE NORTH 89° 00' WEST, TWO HUNDRED THIRTY-SEVEN AND THIRTY-SEVEN HUNDREDTHS (237.37) FEET TO AN IRON PIN; THENCE NORTH 1° 40' EAST, TWO HUNDRED SIXTY-FOUR AND ZERO HUNDREDTHS (264.00) FEET TO THE POINT OF BEGINNING. CONTAINING 1.429 ACRES OF LAND MORE OR LESS."
+          },
+          "lenderTitlePolicyFees": {
+            "N": "360"
+          },
+          "lenderTitlePolicyName": {
+            "S": "ALTA Short Form Residential Loan Policy"
+          },
+          "message": {
+            "S": "We need an administrator to review the request."
+          },
+          "morageTax": {
+            "N": "0"
+          },
+          "mortgageAmount": {
+            "N": "50000"
+          },
+          "mortgageBookValue": {
+            "S": ""
+          },
+          "mortgageMortgagee": {
+            "S": "MERS, Inc., as nominee for Rocket Mortgage, LLC, FKA Quicken Loans, LLC"
+          },
+          "mortgagePageValue": {
+            "S": ""
+          },
+          "mortgageRecordedDate": {
+            "S": "2021-09-23T00:00:00+00:00"
+          },
+          "mortgagesInfo": {
+            "L": [
+              {
+                "M": {
+                  "amount": {
+                    "N": "50000"
+                  },
+                  "datedDate": {
+                    "S": "2021-09-17T00:00:00+00:00"
+                  },
+                  "mortgagee": {
+                    "S": "MERS, Inc., as nominee for Rocket Mortgage, LLC, FKA Quicken Loans, LLC"
+                  }
+                }
+              }
+            ]
+          },
+          "mortgageTrusteeName": {
+            "S": ""
+          },
+          "needReview": {
+            "BOOL": true
+          },
+          "needReviewReason": {
+            "L": [
+              {
+                "M": {
+                  "message": {
+                    "S": "firstMortgageAmount and american DT amount is not the same"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "message": {
+                    "S": "is delinquent"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "message": {
+                    "S": "Borrower not found as mortgagor."
+                  }
+                }
+              },
+              {
+                "M": {
+                  "message": {
+                    "S": "County name from SL and FA DT are different. County name from ServiceLink response: TEST"
+                  }
+                }
+              }
+            ]
+          },
+          "orderDate": {
+            "S": "2025-11-27T23:25:06.041Z"
+          },
+          "orderId": {
+            "S": "547754855"
+          },
+          "orderType": {
+            "S": "Property Report"
+          },
+          "recordingFeesAndOtherTaxes": {
+            "N": "46"
+          },
+          "requiredToAttendClosing": {
+            "S": "Ronald Frame"
+          },
+          "responseDate": {
+            "S": "2025-11-27T23:25:17.819Z"
+          },
+          "stateFees": {
+            "N": "250"
+          },
+          "status": {
+            "S": "analyzing"
+          },
+          "submitterDocumentID": {
+            "S": "b53e7f18-dd80-4ad2-9a69-c69411afd122"
+          },
+          "submitterPackageID": {
+            "S": "0d822eb0-29e8-402d-95a2-fb832de6e89a"
+          },
+          "taxFeesAmount": {
+            "N": "333.33"
+          },
+          "taxId": {
+            "S": "302600600000"
+          },
+          "taxPayment": {
+            "L": [
+              {
+                "M": {
+                  "isTaxDataDirty": {
+                    "BOOL": false
+                  },
+                  "taxAgency": {
+                    "M": {
+                      "address1": {
+                        "S": "660 N. PERRY ST STE 204"
+                      },
+                      "address2": {
+                        "S": ""
+                      },
+                      "agencyName": {
+                        "S": "TEST"
+                      },
+                      "city": {
+                        "S": "NAPOLEON"
+                      },
+                      "fax": {
+                        "S": "(419) 592-2004"
+                      },
+                      "fips": {
+                        "S": "39069"
+                      },
+                      "phoneNumber": {
+                        "S": "(419) 592-1851"
+                      },
+                      "stateCode": {
+                        "S": "OH"
+                      },
+                      "zipCode": {
+                        "S": "43545"
+                      }
+                    }
+                  },
+                  "taxId": {
+                    "S": "302600600000"
+                  },
+                  "taxInstallmentInfo": {
+                    "M": {
+                      "installment1Amount": {
+                        "N": "1393.54"
+                      },
+                      "installment1DueDate": {
+                        "S": "2024-02-07T00:00:00+00:00"
+                      },
+                      "installment1StatusName": {
+                        "S": "Paid"
+                      },
+                      "installment2Amount": {
+                        "N": "1377.1"
+                      },
+                      "installment2DueDate": {
+                        "S": "2024-07-10T00:00:00+00:00"
+                      },
+                      "installment2StatusName": {
+                        "S": "Paid"
+                      },
+                      "installmentTotalValue": {
+                        "N": "2770.64"
+                      }
+                    }
+                  },
+                  "taxPaymentId": {
+                    "N": "4232452"
+                  },
+                  "taxPeriodTypeId": {
+                    "N": "0"
+                  },
+                  "taxTypeName": {
+                    "S": "County"
+                  },
+                  "taxYear": {
+                    "S": "2023"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "isTaxDataDirty": {
+                    "BOOL": false
+                  },
+                  "taxAgency": {
+                    "M": {
+                      "address1": {
+                        "S": "660 N. PERRY ST STE 204"
+                      },
+                      "address2": {
+                        "S": ""
+                      },
+                      "agencyName": {
+                        "S": "TEST"
+                      },
+                      "city": {
+                        "S": "NAPOLEON"
+                      },
+                      "fax": {
+                        "S": "(419) 592-2004"
+                      },
+                      "fips": {
+                        "S": "39069"
+                      },
+                      "phoneNumber": {
+                        "S": "(419) 592-1851"
+                      },
+                      "stateCode": {
+                        "S": "OH"
+                      },
+                      "zipCode": {
+                        "S": "43545"
+                      }
+                    }
+                  },
+                  "taxId": {
+                    "S": "302600640000"
+                  },
+                  "taxInstallmentInfo": {
+                    "M": {
+                      "installment1Amount": {
+                        "N": "160.02"
+                      },
+                      "installment1DueDate": {
+                        "S": "2024-02-07T00:00:00+00:00"
+                      },
+                      "installment1StatusName": {
+                        "S": "Delinquent"
+                      },
+                      "installment2Amount": {
+                        "N": "160.02"
+                      },
+                      "installment2DueDate": {
+                        "S": "2024-07-08T00:00:00+00:00"
+                      },
+                      "installment2StatusName": {
+                        "S": "Delinquent"
+                      },
+                      "installmentTotalValue": {
+                        "N": "320.04"
+                      }
+                    }
+                  },
+                  "taxPaymentId": {
+                    "N": "4232453"
+                  },
+                  "taxPeriodTypeId": {
+                    "N": "0"
+                  },
+                  "taxTypeName": {
+                    "S": "County"
+                  },
+                  "taxYear": {
+                    "S": "2023"
+                  }
+                }
+              }
+            ]
+          },
+          "vesting": {
+            "S": "Damien Blossom"
+          },
+          "yearsInHome": {
+            "N": "4"
+          }
+        }
+      },
+      "updatedAt": {
+        "S": "2025-11-27T23:24:25.101Z"
+      }
+    }
+  },
+  "brokerId": {
+    "S": "a2a979e2-4b72-493b-a536-d7ce1ba6724b"
+  },
+  "brokerSk": {
+    "S": "METADATA"
+  },
+  "createdAt": {
+    "N": "1764285812"
+  },
+  "helocALTd": {
+    "S": "2025-11-27"
+  },
+  "initialOffer": {
+    "M": {
+      "allFees": {
+        "M": {
+          "AVMInspection": {
+            "N": "0"
+          },
+          "commDeptFee": {
+            "N": "0"
+          },
+          "complianceDocPrepeNote": {
+            "N": "0"
+          },
+          "creditReport": {
+            "N": "2.7"
+          },
+          "eRecordingFee": {
+            "N": "0"
+          },
+          "IDVerification": {
+            "N": "0"
+          },
+          "legalVestingFee": {
+            "N": "0"
+          },
+          "lenderTitlePolicyFees": {
+            "N": "0"
+          },
+          "originationPoints": {
+            "N": "2740"
+          },
+          "taxes": {
+            "N": "46"
+          },
+          "totalFees": {
+            "N": "3038.7"
+          },
+          "totalPayoffsAndPaydowns": {
+            "N": "0"
+          }
+        }
+      },
+      "amount": {
+        "N": "100000"
+      },
+      "annualIncome": {
+        "N": "125000"
+      },
+      "appliedAdjustors": {
+        "N": "0"
+      },
+      "APR": {
+        "N": "0.0848042907714844"
+      },
+      "cltv": {
+        "N": "0.29970360543096075"
+      },
+      "createdAt": {
+        "S": "2025-11-27T23:24:25.101Z"
+      },
+      "creditScore": {
+        "N": "836"
+      },
+      "currentLoanBalance": {
+        "N": "15000"
+      },
+      "debtToIncomeRatio": {
+        "N": "0.170352"
+      },
+      "dtiBeforeSendInviteEmail": {
+        "N": "0.170352"
+      },
+      "employerNameBorrower": {
+        "S": "Borrower Name"
+      },
+      "initialDrawAmount": {
+        "N": "96961.3"
+      },
+      "interestRate": {
+        "N": "0.0819"
+      },
+      "loanCountyFIPS": {
+        "S": "51059"
+      },
+      "marginRate": {
+        "N": "0.0119"
+      },
+      "maximumInitialDraw": {
+        "N": "100000"
+      },
+      "maxOffer": {
+        "N": "360955"
+      },
+      "minimumInitialDraw": {
+        "N": "75000"
+      },
+      "minOffer": {
+        "N": "100000"
+      },
+      "monthlyInterestCharge": {
+        "N": "91"
+      },
+      "monthlyPayment": {
+        "N": "682.5"
+      },
+      "monthlyPaymentInitialDraw": {
+        "N": "682.5"
+      },
+      "netFundingWiredToBank": {
+        "N": "97260"
+      },
+      "pricingEngineCreatedAt": {
+        "S": "2025-11-17T11:12:01.579Z"
+      },
+      "pricingEngineId": {
+        "S": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE"
+      },
+      "primeRate": {
+        "N": "0.07"
+      },
+      "startDateBorrower": {
+        "S": "2020-10-10"
+      },
+      "tnMaxOffer": {
+        "NULL": true
+      },
+      "totalAnnualIncomeBorrower": {
+        "N": "125000"
+      },
+      "updatedAt": {
+        "S": "2025-11-27T23:23:48.179Z"
+      },
+      "useProceeds": {
+        "S": "Home Improvement"
+      }
+    }
+  },
+  "inputValuesFromSignUp": {
+    "M": {
+      "creditScore": {
+        "N": "700"
+      },
+      "originalLoanAmountFromSignUp": {
+        "N": "100000"
+      }
+    }
+  },
+  "investors": {
+    "M": {
+      "possibleInvestors": {
+        "L": [
+          {
+            "M": {
+              "id": {
+                "S": "55d3a7f6-3c6b-4ea3-bb0e-8b8bdf0bf28f"
+              },
+              "name": {
+                "S": "JP Morgan"
+              }
+            }
+          },
+          {
+            "M": {
+              "id": {
+                "S": "c66b4586-ae37-49a4-9d92-90eb7a50e7cf"
+              },
+              "name": {
+                "S": "Goldman Sachs"
+              }
+            }
+          },
+          {
+            "M": {
+              "id": {
+                "S": "12261404-2d46-489b-8a19-87c5ba2fae3c"
+              },
+              "name": {
+                "S": "Saluda Grade"
+              }
+            }
+          },
+          {
+            "M": {
+              "id": {
+                "S": "e00a1fd5-3061-4ebe-9d97-656accb95914"
+              },
+              "name": {
+                "S": "Angel Oak"
+              }
+            }
+          },
+          {
+            "M": {
+              "id": {
+                "S": "7e859489-be8d-4821-b5af-695beccdf310"
+              },
+              "name": {
+                "S": "Angelo Gordon"
+              }
+            }
+          },
+          {
+            "M": {
+              "id": {
+                "S": "202e6092-5e2c-4b5e-92de-18d37fde6baa"
+              },
+              "name": {
+                "S": "NFTYFund"
+              }
+            }
+          },
+          {
+            "M": {
+              "id": {
+                "S": "96a871ba-29dc-49b9-82f9-fdbc856138ea"
+              },
+              "name": {
+                "S": "BAWAG"
+              }
+            }
+          },
+          {
+            "M": {
+              "id": {
+                "S": "0b7d9a88-bcaa-4bfa-aa46-8e9e0fa7c039"
+              },
+              "name": {
+                "S": "Bayview"
+              }
+            }
+          },
+          {
+            "M": {
+              "id": {
+                "S": "66d8a33d-f192-4ff6-ad71-d4a3f9d4b046"
+              },
+              "name": {
+                "S": "Davidson Kemper"
+              }
+            }
+          },
+          {
+            "M": {
+              "id": {
+                "S": "c2b5fde9-233a-4fea-a700-20cb9c46294f"
+              },
+              "name": {
+                "S": "Annaly"
+              }
+            }
+          }
+        ]
+      },
+      "prices": {
+        "L": [
+          {
+            "M": {
+              "investorId": {
+                "S": "55d3a7f6-3c6b-4ea3-bb0e-8b8bdf0bf28f"
+              },
+              "investorName": {
+                "S": "JP Morgan"
+              },
+              "price": {
+                "M": {
+                  "investorPremiumAmount": {
+                    "N": "55267.94"
+                  },
+                  "loanMaxPrice": {
+                    "N": "100.57"
+                  },
+                  "loanValue": {
+                    "N": "100570"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "M": {
+              "investorId": {
+                "S": "96a871ba-29dc-49b9-82f9-fdbc856138ea"
+              },
+              "investorName": {
+                "S": "BAWAG"
+              },
+              "price": {
+                "M": {
+                  "investorPremiumAmount": {
+                    "N": "-15998.61"
+                  },
+                  "loanMaxPrice": {
+                    "N": "99.835"
+                  },
+                  "loanValue": {
+                    "N": "99835"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "M": {
+              "investorId": {
+                "S": "7e859489-be8d-4821-b5af-695beccdf310"
+              },
+              "investorName": {
+                "S": "Angelo Gordon"
+              },
+              "price": {
+                "M": {
+                  "investorPremiumAmount": {
+                    "N": "-449294.42"
+                  },
+                  "loanMaxPrice": {
+                    "N": "95.36625"
+                  },
+                  "loanValue": {
+                    "N": "95366.25"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "M": {
+              "investorId": {
+                "S": "c66b4586-ae37-49a4-9d92-90eb7a50e7cf"
+              },
+              "investorName": {
+                "S": "Goldman Sachs"
+              },
+              "price": {
+                "M": {
+                  "investorPremiumAmount": {
+                    "N": "-379118.68"
+                  },
+                  "loanMaxPrice": {
+                    "N": "96.09"
+                  },
+                  "loanValue": {
+                    "N": "96090"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "M": {
+              "investorId": {
+                "S": "12261404-2d46-489b-8a19-87c5ba2fae3c"
+              },
+              "investorName": {
+                "S": "Saluda Grade"
+              },
+              "price": {
+                "M": {
+                  "investorPremiumAmount": {
+                    "N": "-449294.42"
+                  },
+                  "loanMaxPrice": {
+                    "N": "95.36625"
+                  },
+                  "loanValue": {
+                    "N": "95366.25"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "M": {
+              "investorId": {
+                "S": "0b7d9a88-bcaa-4bfa-aa46-8e9e0fa7c039"
+              },
+              "investorName": {
+                "S": "Bayview"
+              },
+              "price": {
+                "M": {
+                  "investorPremiumAmount": {
+                    "N": "-15998.61"
+                  },
+                  "loanMaxPrice": {
+                    "N": "99.835"
+                  },
+                  "loanValue": {
+                    "N": "99835"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "M": {
+              "investorId": {
+                "S": "202e6092-5e2c-4b5e-92de-18d37fde6baa"
+              },
+              "investorName": {
+                "S": "NFTYFund"
+              },
+              "price": {
+                "M": {
+                  "investorPremiumAmount": {
+                    "N": "-282642.19"
+                  },
+                  "loanMaxPrice": {
+                    "N": "97.085"
+                  },
+                  "loanValue": {
+                    "N": "97085"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "M": {
+              "investorId": {
+                "S": "e00a1fd5-3061-4ebe-9d97-656accb95914"
+              },
+              "investorName": {
+                "S": "Angel Oak"
+              },
+              "price": {
+                "M": {
+                  "investorPremiumAmount": {
+                    "N": "-499835.5"
+                  },
+                  "loanMaxPrice": {
+                    "N": "94.845"
+                  },
+                  "loanValue": {
+                    "N": "94845"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "M": {
+              "investorId": {
+                "S": "66d8a33d-f192-4ff6-ad71-d4a3f9d4b046"
+              },
+              "investorName": {
+                "S": "Davidson Kemper"
+              },
+              "price": {
+                "M": {
+                  "investorPremiumAmount": {
+                    "N": "-499835.5"
+                  },
+                  "loanMaxPrice": {
+                    "N": "94.845"
+                  },
+                  "loanValue": {
+                    "N": "94845"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "M": {
+              "investorId": {
+                "S": "c2b5fde9-233a-4fea-a700-20cb9c46294f"
+              },
+              "investorName": {
+                "S": "Annaly"
+              },
+              "price": {
+                "M": {
+                  "investorPremiumAmount": {
+                    "N": "-499835.5"
+                  },
+                  "loanMaxPrice": {
+                    "N": "94.845"
+                  },
+                  "loanValue": {
+                    "N": "94845"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "pricingDate": {
+        "S": "11-27-2025"
+      }
+    }
+  },
+  "invite": {
+    "M": {
+      "body": {
+        "M": {
+          "addCoborrower": {
+            "S": "No"
+          },
+          "analyzed": {
+            "BOOL": true
+          },
+          "annualDebts": {
+            "S": "28689.96"
+          },
+          "assistedFullyCompleting": {
+            "BOOL": true
+          },
+          "assistedUnderstanding": {
+            "BOOL": true
+          },
+          "borrowerAddress": {
+            "M": {
+              "city": {
+                "S": "Herndon"
+              },
+              "entries": {
+                "N": "0"
+              },
+              "secondary": {
+                "S": ""
+              },
+              "source": {
+                "S": "postal"
+              },
+              "state": {
+                "S": "VA"
+              },
+              "street_line": {
+                "S": "3312 Willow Glen Dr"
+              },
+              "zipcode": {
+                "S": "20171"
+              }
+            }
+          },
+          "code": {
+            "S": "67cd491f-58dd-4951-b172-289eec2a9aa4"
+          },
+          "completedByBorrower": {
+            "BOOL": false
+          },
+          "confirmEmailAddressBorrower": {
+            "S": "cypress_d_f09gpm0_bouldenerie_coborrower4us2jq7orokpfw@yopmail.com"
+          },
+          "creditScoreRange": {
+            "M": {
+              "label": {
+                "S": "700 - 719"
+              },
+              "value": {
+                "S": "700 - 719"
+              }
+            }
+          },
+          "creditScoreValueUsed": {
+            "S": "700 - 719"
+          },
+          "currentLoanBalance": {
+            "S": "$15,000"
+          },
+          "dateOfBirthBorrower": {
+            "S": "1962-11-11"
+          },
+          "dti": {
+            "S": "22.95%"
+          },
+          "educated": {
+            "BOOL": true
+          },
+          "emailAddressBorrower": {
+            "S": "cypress_d_f09gpm0_bouldenerie_coborrower4us2jq7orokpfw@yopmail.com"
+          },
+          "employerNameBorrower": {
+            "S": "Borrower Name"
+          },
+          "employmentTypeBorrower": {
+            "M": {
+              "label": {
+                "S": "Full Time Employed/ W2"
+              },
+              "value": {
+                "S": "Full Time Employed/ W2"
+              }
+            }
+          },
+          "estimatedHomeValue": {
+            "S": "$850,000"
+          },
+          "inATrust": {
+            "S": "No"
+          },
+          "incomeSourcesBorrower": {
+            "M": {
+              "otherIncome": {
+                "S": ""
+              },
+              "rentalIncome": {
+                "S": ""
+              },
+              "salaryIncome": {
+                "N": "125000"
+              },
+              "selfEmploymentIncome": {
+                "S": ""
+              },
+              "socialIncome": {
+                "S": ""
+              }
+            }
+          },
+          "isB1Mobile": {
+            "BOOL": true
+          },
+          "legalFirstNameBorrower": {
+            "S": "Boulden"
+          },
+          "legalLastNameBorrower": {
+            "S": "Erie"
+          },
+          "lienMortgagePayment": {
+            "S": "$800"
+          },
+          "loanId": {
+            "S": "100564285807814"
+          },
+          "maintain": {
+            "BOOL": true
+          },
+          "manualAddress": {
+            "BOOL": false
+          },
+          "manualBorrowerAddress": {
+            "BOOL": false
+          },
+          "manualCoborrowerAddress": {
+            "BOOL": false
+          },
+          "maritalStatusBorrower": {
+            "M": {
+              "label": {
+                "S": "Unmarried"
+              },
+              "value": {
+                "S": "Unmarried"
+              }
+            }
+          },
+          "mloLicenseValid": {
+            "S": "Yes"
+          },
+          "nameAcknowledge": {
+            "S": "Test Automation Lo"
+          },
+          "occupancyType": {
+            "M": {
+              "label": {
+                "S": "Primary Residence"
+              },
+              "value": {
+                "S": "Primary Residence"
+              }
+            }
+          },
+          "otherMonthlyDebts": {
+            "S": "$800"
+          },
+          "phoneBorrower": {
+            "S": "+10000000001"
+          },
+          "propertyAddress": {
+            "M": {
+              "city": {
+                "S": "Herndon"
+              },
+              "entries": {
+                "N": "0"
+              },
+              "secondary": {
+                "S": ""
+              },
+              "source": {
+                "S": "postal"
+              },
+              "state": {
+                "S": "VA"
+              },
+              "street_line": {
+                "S": "3312 Willow Glen Dr"
+              },
+              "zipcode": {
+                "S": "20171"
+              }
+            }
+          },
+          "rentalProperties": {
+            "S": ""
+          },
+          "requestedLoanAmount": {
+            "S": "$100,000"
+          },
+          "ssnBorrower": {
+            "S": "666-39-0434"
+          },
+          "startDateBorrower": {
+            "S": "2020-10-10"
+          },
+          "totalAnnualIncomeBorrower": {
+            "S": "125000"
+          },
+          "totalHouseholdIncome": {
+            "S": "125000"
+          },
+          "useOfProceeds": {
+            "M": {
+              "label": {
+                "S": "Home Improvement"
+              },
+              "value": {
+                "S": "Home Improvement"
+              }
+            }
+          }
+        }
+      },
+      "invite": {
+        "M": {
+          "accountExecutiveId": {
+            "S": "haru desx"
+          },
+          "address": {
+            "M": {
+              "city": {
+                "S": "Herndon"
+              },
+              "entries": {
+                "N": "0"
+              },
+              "secondary": {
+                "S": ""
+              },
+              "source": {
+                "S": "postal"
+              },
+              "state": {
+                "S": "VA"
+              },
+              "street_line": {
+                "S": "3312 Willow Glen Dr"
+              },
+              "zipcode": {
+                "S": "20171"
+              }
+            }
+          },
+          "annualIncome": {
+            "S": "125000"
+          },
+          "body": {
+            "M": {
+              "addCoborrower": {
+                "S": "No"
+              },
+              "analyzed": {
+                "BOOL": true
+              },
+              "annualDebts": {
+                "S": "28689.96"
+              },
+              "assistedFullyCompleting": {
+                "BOOL": true
+              },
+              "assistedUnderstanding": {
+                "BOOL": true
+              },
+              "avmHomeValue": {
+                "S": "$521,602"
+              },
+              "borrowerAddress": {
+                "M": {
+                  "city": {
+                    "S": "Herndon"
+                  },
+                  "entries": {
+                    "N": "0"
+                  },
+                  "secondary": {
+                    "S": ""
+                  },
+                  "source": {
+                    "S": "postal"
+                  },
+                  "state": {
+                    "S": "VA"
+                  },
+                  "street_line": {
+                    "S": "3312 Willow Glen Dr"
+                  },
+                  "zipcode": {
+                    "S": "20171"
+                  }
+                }
+              },
+              "code": {
+                "S": "67cd491f-58dd-4951-b172-289eec2a9aa4"
+              },
+              "completedByBorrower": {
+                "BOOL": false
+              },
+              "confirmEmailAddressBorrower": {
+                "S": "cypress_d_f09gpm0_bouldenerie_coborrower4us2jq7orokpfw@yopmail.com"
+              },
+              "creditScoreRange": {
+                "M": {
+                  "label": {
+                    "S": "700 - 719"
+                  },
+                  "value": {
+                    "S": "700 - 719"
+                  }
+                }
+              },
+              "creditScoreValueUsed": {
+                "S": "700 - 719"
+              },
+              "currentLoanBalance": {
+                "S": "$15,000"
+              },
+              "dateOfBirthBorrower": {
+                "S": "1962-11-11"
+              },
+              "dti": {
+                "S": "22.95%"
+              },
+              "educated": {
+                "BOOL": true
+              },
+              "emailAddressBorrower": {
+                "S": "cypress_d_f09gpm0_bouldenerie_coborrower4us2jq7orokpfw@yopmail.com"
+              },
+              "employerNameBorrower": {
+                "S": "Borrower Name"
+              },
+              "employmentTypeBorrower": {
+                "M": {
+                  "label": {
+                    "S": "Full Time Employed/ W2"
+                  },
+                  "value": {
+                    "S": "Full Time Employed/ W2"
+                  }
+                }
+              },
+              "estimatedHomeValue": {
+                "S": "$850,000"
+              },
+              "inATrust": {
+                "S": "No"
+              },
+              "incomeSourcesBorrower": {
+                "M": {
+                  "otherIncome": {
+                    "S": ""
+                  },
+                  "rentalIncome": {
+                    "S": ""
+                  },
+                  "salaryIncome": {
+                    "N": "125000"
+                  },
+                  "selfEmploymentIncome": {
+                    "S": ""
+                  },
+                  "socialIncome": {
+                    "S": ""
+                  }
+                }
+              },
+              "isB1Mobile": {
+                "BOOL": true
+              },
+              "legalFirstNameBorrower": {
+                "S": "Boulden"
+              },
+              "legalFullNameBorrower": {
+                "S": "Boulden Erie"
+              },
+              "legalLastNameBorrower": {
+                "S": "Erie"
+              },
+              "lienMortgagePayment": {
+                "S": "$800"
+              },
+              "loanId": {
+                "S": "100564285807814"
+              },
+              "loanOfficerEmail": {
+                "S": "lotestdesx.01@yopmail.com"
+              },
+              "loanOfficerFirstName": {
+                "S": "Desx"
+              },
+              "loanOfficerFullName": {
+                "S": "Desx Haru"
+              },
+              "loanOfficerLastName": {
+                "S": "Haru"
+              },
+              "maintain": {
+                "BOOL": true
+              },
+              "manualAddress": {
+                "BOOL": false
+              },
+              "manualBorrowerAddress": {
+                "BOOL": false
+              },
+              "manualCoborrowerAddress": {
+                "BOOL": false
+              },
+              "maritalStatusBorrower": {
+                "M": {
+                  "label": {
+                    "S": "Unmarried"
+                  },
+                  "value": {
+                    "S": "Unmarried"
+                  }
+                }
+              },
+              "mloLicenseValid": {
+                "S": "Yes"
+              },
+              "nameAcknowledge": {
+                "S": "Test Automation Lo"
+              },
+              "occupancyType": {
+                "M": {
+                  "label": {
+                    "S": "Primary Residence"
+                  },
+                  "value": {
+                    "S": "Primary Residence"
+                  }
+                }
+              },
+              "otherMonthlyDebts": {
+                "S": "$800"
+              },
+              "phoneBorrower": {
+                "S": "+10000000001"
+              },
+              "propertyAddress": {
+                "M": {
+                  "city": {
+                    "S": "Herndon"
+                  },
+                  "entries": {
+                    "N": "0"
+                  },
+                  "secondary": {
+                    "S": ""
+                  },
+                  "source": {
+                    "S": "postal"
+                  },
+                  "state": {
+                    "S": "VA"
+                  },
+                  "street_line": {
+                    "S": "3312 Willow Glen Dr"
+                  },
+                  "zipcode": {
+                    "S": "20171"
+                  }
+                }
+              },
+              "rentalProperties": {
+                "S": ""
+              },
+              "requestedLoanAmount": {
+                "S": "$100,000"
+              },
+              "ssnBorrower": {
+                "S": "666-39-0434"
+              },
+              "startDateBorrower": {
+                "S": "2020-10-10"
+              },
+              "totalAnnualIncomeBorrower": {
+                "S": "125000"
+              },
+              "totalHouseholdIncome": {
+                "S": "125000"
+              },
+              "useOfProceeds": {
+                "M": {
+                  "label": {
+                    "S": "Home Improvement"
+                  },
+                  "value": {
+                    "S": "Home Improvement"
+                  }
+                }
+              }
+            }
+          },
+          "brokerId": {
+            "S": "a2a979e2-4b72-493b-a536-d7ce1ba6724b"
+          },
+          "brokerSk": {
+            "S": "METADATA"
+          },
+          "code": {
+            "S": "67cd491f-58dd-4951-b172-289eec2a9aa4"
+          },
+          "createdAt": {
+            "S": "2025-11-27T23:23:32.666Z"
+          },
+          "creditScore": {
+            "S": "700 - 719"
+          },
+          "creditScoreValueUsed": {
+            "N": "700"
+          },
+          "currentLoanBalance": {
+            "S": "$15,000"
+          },
+          "email": {
+            "S": "cypress_d_f09gpm0_bouldenerie_coborrower4us2jq7orokpfw@yopmail.com"
+          },
+          "employerNameBorrower": {
+            "S": "Borrower Name"
+          },
+          "employmentType": {
+            "S": "Full Time Employed/ W2"
+          },
+          "fastPass": {
+            "BOOL": true
+          },
+          "firstName": {
+            "S": "Boulden"
+          },
+          "homeValue": {
+            "S": "$850,000"
+          },
+          "inviteType": {
+            "S": "one_use"
+          },
+          "isMobile": {
+            "BOOL": true
+          },
+          "lastName": {
+            "S": "Erie"
+          },
+          "loanId": {
+            "S": "100564285807814"
+          },
+          "loanOfficerId": {
+            "S": "c28f8e39-27fa-4856-b01c-0a0578dc0590"
+          },
+          "maritalStatus": {
+            "S": "Unmarried"
+          },
+          "mloLicenseValid": {
+            "S": "Yes"
+          },
+          "occupancy": {
+            "S": "Primary Residence"
+          },
+          "phone": {
+            "S": ""
+          },
+          "phoneNumber": {
+            "S": "+10000000001"
+          },
+          "privateLabelId": {
+            "S": "PRIVATE#LABEL#test.nftydoor.com"
+          },
+          "propertyAddress": {
+            "M": {
+              "city": {
+                "S": "Herndon"
+              },
+              "entries": {
+                "N": "0"
+              },
+              "secondary": {
+                "S": ""
+              },
+              "source": {
+                "S": "postal"
+              },
+              "state": {
+                "S": "VA"
+              },
+              "street_line": {
+                "S": "3312 Willow Glen Dr"
+              },
+              "zipcode": {
+                "S": "20171"
+              }
+            }
+          },
+          "requestedNewLoan": {
+            "S": "$100,000"
+          },
+          "startDateBorrower": {
+            "S": "2020-10-10"
+          },
+          "status": {
+            "S": "pending"
+          },
+          "submittedByLO": {
+            "BOOL": true
+          },
+          "urlNameBroker": {
+            "S": ""
+          },
+          "urlNameLoanOfficer": {
+            "S": ""
+          },
+          "useProceeds": {
+            "S": "Home Improvement"
+          }
+        }
+      }
+    }
+  },
+  "inviteCode": {
+    "S": "67cd491f-58dd-4951-b172-289eec2a9aa4"
+  },
+  "inviteCreationDate": {
+    "S": "2025-11-27T23:23:32.790Z"
+  },
+  "isB1Mobile": {
+    "BOOL": false
+  },
+  "isB2Mobile": {
+    "BOOL": false
+  },
+  "loanFees": {
+    "M": {
+      "AVMInspection": {
+        "N": "0"
+      },
+      "brokerComp": {
+        "N": "2000"
+      },
+      "commDeptFee": {
+        "N": "0"
+      },
+      "complianceDocPrepeNote": {
+        "N": "0"
+      },
+      "creditReport": {
+        "N": "0"
+      },
+      "IDVerification": {
+        "N": "0"
+      },
+      "legalVestingFee": {
+        "N": "0"
+      },
+      "notary": {
+        "BOOL": false
+      },
+      "originationFee": {
+        "N": "740"
+      },
+      "originationFeeTotal": {
+        "N": "0.0274"
+      },
+      "valuesInNotary": {
+        "M": {
+          "notaryFeeDocutech": {
+            "N": "0"
+          },
+          "propertyReportFeeServicelink": {
+            "N": "0"
+          },
+          "recordingFeeSimplifile": {
+            "N": "0"
+          }
+        }
+      }
+    }
+  },
+  "loanOfficerId": {
+    "S": "c28f8e39-27fa-4856-b01c-0a0578dc0590"
+  },
+  "loanStatusCode": {
+    "S": "B1BRD1"
+  },
+  "loanStatusHistory": {
+    "L": []
+  },
+  "loanType": {
+    "S": "HELOC"
+  },
+  "newBorrowerStatusCode": {
+    "S": "DTI009"
+  },
+  "newLoanStatusCode": {
+    "S": "DTI009"
+  },
+  "newLoanStatusCodeCreatedAt": {
+    "S": "2025-11-27T23:25:05.443Z"
+  },
+  "newLoanStatusHistory": {
+    "L": [
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-12-04T15:07:38.498Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-emailCronJobs"
+          },
+          "loanStatusCode": {
+            "S": "DTI009"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-12-03T15:06:07.008Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-emailCronJobs"
+          },
+          "loanStatusCode": {
+            "S": "DTI009"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-12-02T15:05:43.077Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-emailCronJobs"
+          },
+          "loanStatusCode": {
+            "S": "DTI009"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-12-01T15:04:30.900Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-emailCronJobs"
+          },
+          "loanStatusCode": {
+            "S": "DTI009"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-30T15:03:59.246Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-emailCronJobs"
+          },
+          "loanStatusCode": {
+            "S": "DTI009"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-29T15:04:37.410Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-emailCronJobs"
+          },
+          "loanStatusCode": {
+            "S": "DTI009"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-28T15:05:15.877Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-emailCronJobs"
+          },
+          "loanStatusCode": {
+            "S": "DTI009"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:25:17.854Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-serviceLinkWebHook"
+          },
+          "loanStatusCode": {
+            "S": "DTI009"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:25:16.408Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-serviceLinkStartOrder"
+          },
+          "loanStatusCode": {
+            "S": "DTI009"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:25:05.443Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-validateHardCredit"
+          },
+          "loanStatusCode": {
+            "S": "DTI009"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:25:03.836Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-saveToLoan"
+          },
+          "loanStatusCode": {
+            "S": "DTI015"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:25:03.446Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-defineLoanType"
+          },
+          "loanStatusCode": {
+            "S": "DTI015"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:24:59.808Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-simpliFileCalculateTax"
+          },
+          "loanStatusCode": {
+            "S": "PQL113"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:24:54.197Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-saveToLoan"
+          },
+          "loanStatusCode": {
+            "S": "PQL113"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:24:29.637Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-registerUserPostProcessing"
+          },
+          "loanStatusCode": {
+            "S": "PQL113"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:24:05.017Z"
+          },
+          "function": {
+            "S": "nftydoor-lo-dev-prequalifyBorrowerDisclosures"
+          },
+          "loanStatusCode": {
+            "S": "PQL113"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:23:48.661Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-validateProperty"
+          },
+          "loanStatusCode": {
+            "S": "PQL102"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:23:41.913Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-validateCredit"
+          },
+          "loanStatusCode": {
+            "S": "PQL102"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:23:41.746Z"
+          },
+          "function": {
+            "S": "functions-dev-getTheWorkNumberReportDoor"
+          },
+          "loanStatusCode": {
+            "S": "PQL102"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:23:41.566Z"
+          },
+          "function": {
+            "S": "functions-dev-getTheWorkNumberReportDoor"
+          },
+          "loanStatusCode": {
+            "S": "PQL102"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:23:37.219Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-validateCredit"
+          },
+          "loanStatusCode": {
+            "S": "PQL102"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:23:36.747Z"
+          },
+          "function": {
+            "S": "nftydoor-lo-dev-prequalifyBorrowerByLoanOfficer"
+          },
+          "loanStatusCode": {
+            "S": "PQL102"
+          }
+        }
+      },
+      {
+        "M": {
+          "createdAt": {
+            "S": "2025-11-27T23:23:36.430Z"
+          },
+          "function": {
+            "S": "nftydoor-app-dev-validateIdentity"
+          },
+          "loanStatusCode": {
+            "S": "PQL102"
+          }
+        }
+      }
+    ]
+  },
+  "npe": {
+    "M": {
+      "email": {
+        "S": "cypress_npe_@yopmail.com"
+      },
+      "fullName": {
+        "S": "RIFKIN STEPHANIE"
+      }
+    }
+  },
+  "occupancy": {
+    "S": "Primary Residence"
+  },
+  "offersHistory": {
+    "L": [
+      {
+        "M": {
+          "amount": {
+            "N": "100000"
+          },
+          "annualIncome": {
+            "N": "125000"
+          },
+          "appliedAdjustors": {
+            "N": "0"
+          },
+          "APR": {
+            "N": "0.0848042907714844"
+          },
+          "cltv": {
+            "N": "0.29970360543096075"
+          },
+          "creditScore": {
+            "N": "836"
+          },
+          "date": {
+            "S": "2025-11-27T23:23:46.780Z"
+          },
+          "debtToIncomeRatio": {
+            "N": "0.170352"
+          },
+          "homeValue": {
+            "N": "521602"
+          },
+          "initialDrawAmount": {
+            "N": "97017.3"
+          },
+          "interestRate": {
+            "N": "0.0819"
+          },
+          "loanCountyFIPS": {
+            "S": "51059"
+          },
+          "loanPurpose": {
+            "S": "Home Improvement"
+          },
+          "loanState": {
+            "S": "VA"
+          },
+          "marginRate": {
+            "N": "0.0119"
+          },
+          "maximumInitialDraw": {
+            "N": "100000"
+          },
+          "maxOffer": {
+            "N": "360955"
+          },
+          "maxOfferBasedOnCLTV": {
+            "N": "360955.6"
+          },
+          "maxOfferBasedOnDTI": {
+            "N": "528299"
+          },
+          "maxOfferBasedOnStateCap": {
+            "N": "417281.6"
+          },
+          "minimumInitialDraw": {
+            "N": "75000"
+          },
+          "minOffer": {
+            "N": "100000"
+          },
+          "monthlyDebtLoad": {
+            "N": "1092"
+          },
+          "monthlyInterestCharge": {
+            "N": "91"
+          },
+          "monthlyPayment": {
+            "N": "682.5"
+          },
+          "netFundingWiredToBank": {
+            "N": "97260"
+          },
+          "pricingEngineCreatedAt": {
+            "S": "2025-11-17T11:12:01.579Z"
+          },
+          "pricingEngineId": {
+            "S": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE"
+          },
+          "primeRate": {
+            "N": "0.07"
+          },
+          "requestedLoanAmount": {
+            "N": "100000"
+          },
+          "status": {
+            "S": "SUCCESS"
+          },
+          "trigger": {
+            "S": "validateProperty"
+          },
+          "type": {
+            "S": "initial"
+          },
+          "userEmail": {
+            "S": "system"
+          },
+          "userRoleName": {
+            "S": "system"
+          }
+        }
+      },
+      {
+        "M": {
+          "amount": {
+            "N": "100000"
+          },
+          "appliedAdjustors": {
+            "N": "0"
+          },
+          "APR": {
+            "N": "0.0848042907714844"
+          },
+          "cltv": {
+            "N": "0.29970360543096075"
+          },
+          "creditScore": {
+            "N": "836"
+          },
+          "date": {
+            "S": "2025-11-27T23:24:25.100Z"
+          },
+          "debtToIncomeRatio": {
+            "N": "0.170352"
+          },
+          "homeValue": {
+            "N": "521602"
+          },
+          "initialDrawAmount": {
+            "N": "100000"
+          },
+          "interestRate": {
+            "N": "0.0819"
+          },
+          "loanCountyFIPS": {
+            "S": "51059"
+          },
+          "marginRate": {
+            "N": "0.0119"
+          },
+          "maximumInitialDraw": {
+            "N": "100000"
+          },
+          "maxOffer": {
+            "N": "360955"
+          },
+          "minimumInitialDraw": {
+            "N": "75000"
+          },
+          "minOffer": {
+            "N": "100000"
+          },
+          "monthlyInterestCharge": {
+            "N": "91"
+          },
+          "monthlyPayment": {
+            "N": "682.5"
+          },
+          "monthlyPaymentInitialDraw": {
+            "N": "682.5"
+          },
+          "netFundingWiredToBank": {
+            "N": "97260"
+          },
+          "pricingEngineCreatedAt": {
+            "S": "2025-11-17T11:12:01.579Z"
+          },
+          "pricingEngineId": {
+            "S": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE"
+          },
+          "primeRate": {
+            "N": "0.07"
+          },
+          "trigger": {
+            "S": "registerBorrower"
+          },
+          "type": {
+            "S": "initial"
+          },
+          "userEmail": {
+            "S": "cypress_d_f09gpm0_bouldenerie_coborrower4us2jq7orokpfw@yopmail.com"
+          },
+          "userRoleName": {
+            "S": "Borrower"
+          }
+        }
+      },
+      {
+        "M": {
+          "amount": {
+            "N": "100000"
+          },
+          "annualIncome": {
+            "N": "125000"
+          },
+          "appliedAdjustors": {
+            "N": "0"
+          },
+          "APR": {
+            "N": "0.0848042907714844"
+          },
+          "cltv": {
+            "N": "0.29970360543096075"
+          },
+          "creditScore": {
+            "N": "836"
+          },
+          "date": {
+            "S": "2025-11-27T23:24:57.169Z"
+          },
+          "debtToIncomeRatio": {
+            "N": "0.170352"
+          },
+          "homeValue": {
+            "N": "521602"
+          },
+          "initialDrawAmount": {
+            "N": "97017.3"
+          },
+          "interestRate": {
+            "N": "0.0819"
+          },
+          "loanCountyFIPS": {
+            "S": "51059"
+          },
+          "loanPurpose": {
+            "S": "Home Improvement"
+          },
+          "loanState": {
+            "S": "VA"
+          },
+          "marginRate": {
+            "N": "0.0119"
+          },
+          "maximumInitialDraw": {
+            "N": "100000"
+          },
+          "maxOffer": {
+            "N": "360955"
+          },
+          "maxOfferBasedOnCLTV": {
+            "N": "360955.6"
+          },
+          "maxOfferBasedOnDTI": {
+            "N": "528299"
+          },
+          "maxOfferBasedOnStateCap": {
+            "N": "417281.6"
+          },
+          "minimumInitialDraw": {
+            "N": "75000"
+          },
+          "minOffer": {
+            "N": "100000"
+          },
+          "monthlyDebtLoad": {
+            "N": "1092"
+          },
+          "monthlyInterestCharge": {
+            "N": "91"
+          },
+          "monthlyPayment": {
+            "N": "682.5"
+          },
+          "netFundingWiredToBank": {
+            "N": "97260"
+          },
+          "pricingEngineCreatedAt": {
+            "S": "2025-11-17T11:12:01.579Z"
+          },
+          "pricingEngineId": {
+            "S": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE"
+          },
+          "primeRate": {
+            "N": "0.07"
+          },
+          "requestedLoanAmount": {
+            "N": "100000"
+          },
+          "status": {
+            "S": "SUCCESS"
+          },
+          "trigger": {
+            "S": "calculateHelocOffer/calculateHELOCInitialOffer"
+          },
+          "type": {
+            "S": "initial"
+          },
+          "userEmail": {
+            "S": "cypress_d_f09gpm0_bouldenerie_coborrower4us2jq7orokpfw@yopmail.com"
+          },
+          "userRoleName": {
+            "S": "Borrower"
+          }
+        }
+      },
+      {
+        "M": {
+          "amount": {
+            "N": "100000"
+          },
+          "annualIncome": {
+            "N": "125000"
+          },
+          "appliedAdjustors": {
+            "N": "0"
+          },
+          "APR": {
+            "N": "0.0848042907714844"
+          },
+          "cltv": {
+            "N": "0.29970360543096075"
+          },
+          "creditScore": {
+            "N": "836"
+          },
+          "date": {
+            "S": "2025-11-27T23:25:02.660Z"
+          },
+          "debtToIncomeRatio": {
+            "N": "0.170352"
+          },
+          "homeValue": {
+            "N": "521602"
+          },
+          "initialDrawAmount": {
+            "N": "96961.3"
+          },
+          "interestRate": {
+            "N": "0.0819"
+          },
+          "loanCountyFIPS": {
+            "S": "51059"
+          },
+          "loanPurpose": {
+            "S": "Home Improvement"
+          },
+          "loanState": {
+            "S": "VA"
+          },
+          "marginRate": {
+            "N": "0.0119"
+          },
+          "maximumInitialDraw": {
+            "N": "100000"
+          },
+          "maxOffer": {
+            "N": "360955"
+          },
+          "maxOfferBasedOnCLTV": {
+            "N": "360955.6"
+          },
+          "maxOfferBasedOnDTI": {
+            "N": "528299"
+          },
+          "maxOfferBasedOnStateCap": {
+            "N": "417281.6"
+          },
+          "minimumInitialDraw": {
+            "N": "75000"
+          },
+          "minOffer": {
+            "N": "100000"
+          },
+          "monthlyDebtLoad": {
+            "N": "1092"
+          },
+          "monthlyInterestCharge": {
+            "N": "91"
+          },
+          "monthlyPayment": {
+            "N": "682.5"
+          },
+          "netFundingWiredToBank": {
+            "N": "97260"
+          },
+          "pricingEngineCreatedAt": {
+            "S": "2025-11-17T11:12:01.579Z"
+          },
+          "pricingEngineId": {
+            "S": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE"
+          },
+          "primeRate": {
+            "N": "0.07"
+          },
+          "requestedLoanAmount": {
+            "N": "100000"
+          },
+          "status": {
+            "S": "SUCCESS"
+          },
+          "trigger": {
+            "S": "defineLoanType"
+          },
+          "type": {
+            "S": "initial"
+          },
+          "userEmail": {
+            "S": "cypress_d_f09gpm0_bouldenerie_coborrower4us2jq7orokpfw@yopmail.com"
+          },
+          "userRoleName": {
+            "S": "Borrower"
+          }
+        }
+      }
+    ]
+  },
+  "prequalOffer": {
+    "M": {
+      "allFees": {
+        "M": {
+          "AVMInspection": {
+            "N": "0"
+          },
+          "commDeptFee": {
+            "N": "0"
+          },
+          "complianceDocPrepeNote": {
+            "N": "0"
+          },
+          "creditReport": {
+            "N": "2.7"
+          },
+          "eRecordingFee": {
+            "N": "0"
+          },
+          "IDVerification": {
+            "N": "0"
+          },
+          "legalVestingFee": {
+            "N": "0"
+          },
+          "lenderTitlePolicyFees": {
+            "N": "0"
+          },
+          "originationPoints": {
+            "N": "2740"
+          },
+          "taxes": {
+            "N": "240"
+          },
+          "totalFees": {
+            "N": "2982.7"
+          },
+          "totalPayoffsAndPaydowns": {
+            "N": "0"
+          }
+        }
+      },
+      "amount": {
+        "N": "100000"
+      },
+      "annualIncome": {
+        "N": "125000"
+      },
+      "appliedAdjustors": {
+        "N": "0"
+      },
+      "APR": {
+        "N": "0.0848042907714844"
+      },
+      "cltv": {
+        "N": "0.29970360543096075"
+      },
+      "createdAt": {
+        "S": "2025-11-27T23:23:32.790Z"
+      },
+      "creditScore": {
+        "N": "836"
+      },
+      "currentLoanBalance": {
+        "N": "15000"
+      },
+      "debtToIncomeRatio": {
+        "N": "0.170352"
+      },
+      "employerNameBorrower": {
+        "S": "Borrower Name"
+      },
+      "homeValue": {
+        "N": "521602"
+      },
+      "initialDrawAmount": {
+        "N": "100000"
+      },
+      "interestRate": {
+        "N": "0.0819"
+      },
+      "loanCountyFIPS": {
+        "S": "51059"
+      },
+      "marginRate": {
+        "N": "0.0119"
+      },
+      "maximumInitialDraw": {
+        "N": "100000"
+      },
+      "maxOffer": {
+        "N": "360955"
+      },
+      "minimumInitialDraw": {
+        "N": "75000"
+      },
+      "minOffer": {
+        "N": "100000"
+      },
+      "monthlyDebtLoad": {
+        "N": "1092"
+      },
+      "monthlyInterestCharge": {
+        "N": "91"
+      },
+      "monthlyPayment": {
+        "N": "682.5"
+      },
+      "monthlyPaymentInitialDraw": {
+        "N": "682.5"
+      },
+      "netFundingWiredToBank": {
+        "N": "97260"
+      },
+      "pricingEngineCreatedAt": {
+        "S": "2025-11-17T11:12:01.579Z"
+      },
+      "pricingEngineId": {
+        "S": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE"
+      },
+      "primeRate": {
+        "N": "0.07"
+      },
+      "startDateBorrower": {
+        "S": "2020-10-10"
+      },
+      "totalAnnualIncomeBorrower": {
+        "N": "125000"
+      },
+      "updatedAt": {
+        "S": "2025-11-27T23:23:48.179Z"
+      },
+      "useProceeds": {
+        "S": "Home Improvement"
+      }
+    }
+  },
+  "pricingEngineCreatedAt": {
+    "S": "2025-11-17T11:12:01.579Z"
+  },
+  "pricingEngineId": {
+    "S": "PRIVATE#LABEL#test.nftydoor.com#HELOC_PRIMARY_RESIDENCE"
+  },
+  "privateLabelId": {
+    "S": "PRIVATE#LABEL#test.nftydoor.com"
+  },
+  "property": {
+    "M": {
+      "address": {
+        "M": {
+          "analysis": {
+            "M": {
+              "active": {
+                "S": "Y"
+              },
+              "dpv_cmra": {
+                "S": "N"
+              },
+              "dpv_footnotes": {
+                "S": "AABB"
+              },
+              "dpv_match_code": {
+                "S": "Y"
+              },
+              "dpv_no_stat": {
+                "S": "N"
+              },
+              "dpv_vacant": {
+                "S": "N"
+              },
+              "enhanced_match": {
+                "S": "postal-match"
+              }
+            }
+          },
+          "candidate_index": {
+            "N": "0"
+          },
+          "components": {
+            "M": {
+              "city_name": {
+                "S": "Herndon"
+              },
+              "default_city_name": {
+                "S": "Herndon"
+              },
+              "delivery_point": {
+                "S": "12"
+              },
+              "delivery_point_check_digit": {
+                "S": "6"
+              },
+              "plus4_code": {
+                "S": "1900"
+              },
+              "primary_number": {
+                "S": "3312"
+              },
+              "state_abbreviation": {
+                "S": "VA"
+              },
+              "street_name": {
+                "S": "Willow Glen"
+              },
+              "street_suffix": {
+                "S": "Dr"
+              },
+              "zipcode": {
+                "S": "20171"
+              }
+            }
+          },
+          "delivery_line_1": {
+            "S": "3312 Willow Glen Dr"
+          },
+          "delivery_point_barcode": {
+            "S": "201711900126"
+          },
+          "input_index": {
+            "N": "0"
+          },
+          "last_line": {
+            "S": "Herndon VA 20171-1900"
+          },
+          "metadata": {
+            "M": {
+              "carrier_route": {
+                "S": "R049"
+              },
+              "congressional_district": {
+                "S": "11"
+              },
+              "county_fips": {
+                "S": "51059"
+              },
+              "county_name": {
+                "S": "Fairfax"
+              },
+              "dst": {
+                "BOOL": true
+              },
+              "elot_sequence": {
+                "S": "0010"
+              },
+              "elot_sort": {
+                "S": "A"
+              },
+              "latitude": {
+                "N": "38.90378"
+              },
+              "longitude": {
+                "N": "-77.38623"
+              },
+              "precision": {
+                "S": "Zip9"
+              },
+              "rdi": {
+                "S": "Residential"
+              },
+              "record_type": {
+                "S": "S"
+              },
+              "time_zone": {
+                "S": "Eastern"
+              },
+              "utc_offset": {
+                "N": "-5"
+              },
+              "zip_type": {
+                "S": "Standard"
+              }
+            }
+          },
+          "smarty_key": {
+            "S": "1696051088"
+          }
+        }
+      },
+      "addressInformation": {
+        "M": {
+          "APN": {
+            "S": "0352-12-0024"
+          },
+          "City": {
+            "S": "HERNDON"
+          },
+          "County": {
+            "S": "FAIRFAX"
+          },
+          "SitusCarrierRoute": {
+            "S": "R049"
+          },
+          "State": {
+            "S": "VA"
+          },
+          "StreetAddress": {
+            "S": "3312 WILLOW GLEN DR"
+          },
+          "Zip9": {
+            "S": "20171-1900"
+          }
+        }
+      },
+      "apartmentOrUnit": {
+        "NULL": true
+      },
+      "apn": {
+        "S": "0352-12-0024"
+      },
+      "borrowerName": {
+        "S": "Boulden"
+      },
+      "candidates": {
+        "NULL": true
+      },
+      "censusTract": {
+        "S": "482504"
+      },
+      "communityName": {
+        "S": "FAIRFAX COUNTY"
+      },
+      "county": {
+        "S": "FAIRFAX"
+      },
+      "countyFips": {
+        "N": "51059"
+      },
+      "createdAt": {
+        "S": "2025-11-27T23:23:32.790Z"
+      },
+      "firstMortgageAmount": {
+        "N": "1074898"
+      },
+      "floodMapDate": {
+        "S": "2010-09-17T00:00:00"
+      },
+      "floodMapPanelNumber": {
+        "S": "0120E"
+      },
+      "floodZoneCode": {
+        "S": "X"
+      },
+      "fullAddress": {
+        "S": "3312 Willow Glen Dr, Herndon, VA, 20171"
+      },
+      "homeValue": {
+        "N": "850000"
+      },
+      "insideSFHA": {
+        "S": "F"
+      },
+      "isEligibleLandUse": {
+        "BOOL": true
+      },
+      "isMultipleProperty": {
+        "NULL": true
+      },
+      "isUnsupportedCountyFips": {
+        "BOOL": false
+      },
+      "key": {
+        "S": "100564285807814/admin/FA Property Report_100564285807814.pdf"
+      },
+      "landUse": {
+        "S": "sfr"
+      },
+      "legalBlock": {
+        "S": "1"
+      },
+      "legalBookPage": {
+        "S": ""
+      },
+      "legalDescription": {
+        "S": "STILL OAKS LT 24 SEC 3"
+      },
+      "legalLot": {
+        "S": "24"
+      },
+      "loanId": {
+        "S": "100564285807814"
+      },
+      "notHomesteadTX": {
+        "BOOL": false
+      },
+      "NPE": {
+        "S": "RIFKIN STEPHANIE"
+      },
+      "ownerInformation": {
+        "M": {
+          "MailingAddress": {
+            "M": {
+              "City": {
+                "S": "HERNDON"
+              },
+              "MailCarrierRoute": {
+                "S": "R049"
+              },
+              "State": {
+                "S": "VA"
+              },
+              "StreetAddress": {
+                "S": "3312 WILLOW GLEN DR"
+              },
+              "Zip9": {
+                "S": "20171-1900"
+              }
+            }
+          },
+          "Occupancy": {
+            "S": "Owner Occupied"
+          },
+          "Owner1FullName": {
+            "S": "RIFKIN STEPHANIE"
+          },
+          "Owner2FullName": {
+            "S": "RIFKIN JAKE"
+          },
+          "Owner3FullName": {
+            "S": ""
+          },
+          "Owner4FullName": {
+            "S": ""
+          },
+          "OwnerNames": {
+            "S": "RIFKIN STEPHANIE / RIFKIN JAKE"
+          },
+          "OwnerOccupiedIndicator": {
+            "S": "Y"
+          },
+          "OwnerVestingInfo": {
+            "M": {
+              "VestingEtal": {
+                "S": ""
+              },
+              "VestingOwner": {
+                "S": "MARRIED COUPLE"
+              },
+              "VestingOwnershipRight": {
+                "S": "TENANT BY ENTIRETY"
+              }
+            }
+          }
+        }
+      },
+      "parsedStreetAddress": {
+        "M": {
+          "ApartmentOrUnit": {
+            "NULL": true
+          },
+          "DirectionPrefix": {
+            "S": ""
+          },
+          "DirectionSuffix": {
+            "S": ""
+          },
+          "StandardizedHouseNumber": {
+            "N": "3312"
+          },
+          "StandardizedHouseNumberString": {
+            "S": "3312"
+          },
+          "StreetName": {
+            "S": "WILLOW GLEN"
+          },
+          "StreetSuffix": {
+            "S": "DR"
+          }
+        }
+      },
+      "propertyId": {
+        "N": "173344495"
+      },
+      "subdivition": {
+        "S": "STILL OAKS"
+      },
+      "unitsResidential": {
+        "N": "1"
+      },
+      "updatedAt": {
+        "S": "2025-11-27T23:24:25.101Z"
+      },
+      "userId": {
+        "S": "temp_borrower_100564285807814"
+      },
+      "yearBuilt": {
+        "S": "1992"
+      },
+      "zendesk": {
+        "M": {
+          "ticketBorrower": {
+            "L": []
+          },
+          "ticketNPE": {
+            "L": []
+          }
+        }
+      }
+    }
+  },
+  "servicer": {
+    "S": "Shellpoint"
+  },
+  "source": {
+    "M": {
+      "dtc": {
+        "BOOL": false
+      },
+      "marketingLink": {
+        "BOOL": false
+      },
+      "preQual": {
+        "BOOL": true
+      }
+    }
+  },
+  "stageCreatedAt": {
+    "S": "2025-11-27T23:25:03.446Z"
+  },
+  "starList": {
+    "L": [
+      {
+        "M": {
+          "id": {
+            "S": "0a22388b-abe9-40c2-83bb-bd3e62a6ff6a"
+          },
+          "createdAt": {
+            "S": "2025-11-27T23:23:38.676Z"
+          },
+          "firstName": {
+            "S": "Test Francis"
+          },
+          "isAssigned": {
+            "BOOL": true
+          },
+          "isStarred": {
+            "BOOL": true
+          },
+          "lastName": {
+            "S": "Angeles"
+          },
+          "team": {
+            "S": "PreQual"
+          },
+          "userType": {
+            "S": "ADMIN"
+          }
+        }
+      },
+      {
+        "M": {
+          "id": {
+            "S": "0a22388b-abe9-40c2-83bb-bd3e62a6ff6a"
+          },
+          "createdAt": {
+            "S": "2025-11-27T23:24:34.876Z"
+          },
+          "firstName": {
+            "S": "Test Francis"
+          },
+          "isAssigned": {
+            "BOOL": true
+          },
+          "isStarred": {
+            "BOOL": true
+          },
+          "lastName": {
+            "S": "Angeles"
+          },
+          "team": {
+            "S": "PreQual"
+          },
+          "userType": {
+            "S": "ADMIN"
+          }
+        }
+      },
+      {
+        "M": {
+          "id": {
+            "S": "d8aa8b83-0a35-429a-b2cb-b90304d226ba"
+          },
+          "createdAt": {
+            "S": "2025-11-27T23:25:04.285Z"
+          },
+          "firstName": {
+            "S": "CXA"
+          },
+          "isAssigned": {
+            "BOOL": true
+          },
+          "isStarred": {
+            "BOOL": true
+          },
+          "lastName": {
+            "S": "yani"
+          },
+          "team": {
+            "S": "CXA"
+          },
+          "userType": {
+            "S": "ADMIN"
+          }
+        }
+      },
+      {
+        "M": {
+          "id": {
+            "S": "6b056958-5c40-467f-b519-aca14c290d6b"
+          },
+          "createdAt": {
+            "S": "2025-11-27T23:25:16.561Z"
+          },
+          "firstName": {
+            "S": "Test Shary"
+          },
+          "isAssigned": {
+            "BOOL": true
+          },
+          "isStarred": {
+            "BOOL": true
+          },
+          "lastName": {
+            "S": "Frille"
+          },
+          "team": {
+            "S": "Title"
+          },
+          "userType": {
+            "S": "ADMIN"
+          }
+        }
+      }
+    ]
+  },
+  "starredHistory": {
+    "L": [
+      {
+        "M": {
+          "id": {
+            "S": "0a22388b-abe9-40c2-83bb-bd3e62a6ff6a"
+          },
+          "firstName": {
+            "S": "Test Francis"
+          },
+          "lastName": {
+            "S": "Angeles"
+          },
+          "reAssigned": {
+            "BOOL": false
+          },
+          "starredAt": {
+            "S": "2025-11-27T23:23:38.676Z"
+          },
+          "team": {
+            "S": "PreQual"
+          }
+        }
+      },
+      {
+        "M": {
+          "id": {
+            "S": "0a22388b-abe9-40c2-83bb-bd3e62a6ff6a"
+          },
+          "firstName": {
+            "S": "Test Francis"
+          },
+          "lastName": {
+            "S": "Angeles"
+          },
+          "reAssigned": {
+            "BOOL": false
+          },
+          "starredAt": {
+            "S": "2025-11-27T23:24:34.876Z"
+          },
+          "team": {
+            "S": "PreQual"
+          }
+        }
+      },
+      {
+        "M": {
+          "id": {
+            "S": "d8aa8b83-0a35-429a-b2cb-b90304d226ba"
+          },
+          "firstName": {
+            "S": "CXA"
+          },
+          "lastName": {
+            "S": "yani"
+          },
+          "reAssigned": {
+            "BOOL": false
+          },
+          "starredAt": {
+            "S": "2025-11-27T23:25:04.285Z"
+          },
+          "team": {
+            "S": "CXA"
+          }
+        }
+      },
+      {
+        "M": {
+          "id": {
+            "S": "6b056958-5c40-467f-b519-aca14c290d6b"
+          },
+          "firstName": {
+            "S": "Test Shary"
+          },
+          "lastName": {
+            "S": "Frille"
+          },
+          "reAssigned": {
+            "BOOL": false
+          },
+          "starredAt": {
+            "S": "2025-11-27T23:25:16.561Z"
+          },
+          "team": {
+            "S": "Title"
+          }
+        }
+      }
+    ]
+  },
+  "submittedByLO": {
+    "BOOL": true
+  },
+  "submittedByLOAt": {
+    "S": "2025-11-27T23:24:04.692Z"
+  },
+  "uliData": {
+    "M": {
+      "isValid": {
+        "BOOL": true
+      },
+      "uliNumber": {
+        "S": "5493001WHVQBGRSWEU7510056428580781495"
+      }
+    }
+  },
+  "updatedAt": {
+    "N": "1764285917"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "nfty-title-agent",
+  "version": "1.0.0",
+  "description": "NFTY Title Agent",
+  "type": "module",
+  "scripts": {
+    "dev": "sst dev",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "test": "echo \"No tests yet\" && exit 0",
+    "upload-test-data": "node scripts/upload-test-data.js"
+  },
+  "dependencies": {
+    "@ai-sdk/amazon-bedrock": "^3.0.65",
+    "@aws-sdk/client-dynamodb": "^3.943.0",
+    "@aws-sdk/lib-dynamodb": "^3.943.0",
+    "ai": "^5.0.104",
+    "dotenv": "^17.2.3",
+    "sst": "^3.17.24",
+    "undici-types": "^7.16.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
